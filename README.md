@@ -32,29 +32,44 @@ This dashboard analyzes the **prospect-to-enrollment funnel** for an education o
 
 ---
 
-## 🔍 Insights Uncovered
+## 🔄 Project Workflow (Python + Jupyter)
 
-- 📉 **50% drop-off** from *Engaged* to *Enrolled* stage signals a need to investigate post-engagement support or friction.
-- ⚡ **Quick engagement & contact speeds** (~2–3 days) across stages indicate strong initial outreach.
-- 🔁 Engagement consistency suggests repeatable workflows are in place—but final conversion may require targeted follow-up or better qualification.
+Data wrangling was done using Python (pandas) inside a Jupyter notebook to prepare the funnel dataset for Power BI. Below are the core preprocessing steps:
+
+### 🧪 Step 1: Load and Preview Raw Data  
+![Step 1](visuals/step1_load_raw_data_preview.png)
+
+### 📆 Step 2: Convert Stage Dates to Datetime  
+![Step 2](visuals/step2_convert_dates_to_datetime.png)
+
+### ✅ Step 3: Create Stage Completion Flags  
+![Step 3](visuals/step3_create_stage_flags.png)
+
+### ⏱️ Step 4: Calculate Stage Duration Metrics  
+![Step 4](visuals/step4_calculate_stage_durations.png)
+
+### 💾 Step 5: Export Cleaned Data to CSV  
+![Step 5](visuals/step5_export_clean_data.png)
 
 ---
 
-## 🛠️ Tools Used
+## 📊 Dashboard Tools Used
 
 - **Power BI**: Interactive visualizations, tooltips, and DAX measures  
 - **DAX**: Custom calculations for % drop, average day metrics, and dynamic tooltips  
-- **Power Query**: Data cleaning and shaping (source not shown in this snapshot)  
-- **Excel**: Initial stage-to-stage data organization  
+- **Power Query**: Data cleaning and shaping  
+- **Excel**: Initial stage-to-stage layout  
+- **Python (Jupyter Notebook)**: Data preprocessing pipeline
 
 ---
 
 ## 🧠 Skills Demonstrated
 
 - Funnel conversion analysis  
+- Python-based data wrangling  
 - KPI creation and tooltip customization  
-- Visual storytelling and layout design  
-- Dashboard interactivity using calculated measures  
+- Dashboard storytelling and layout design  
+- Power BI interactivity using calculated measures  
 - Business questions translated into actionable insights  
 
 ---
@@ -63,20 +78,41 @@ This dashboard analyzes the **prospect-to-enrollment funnel** for an education o
 
 Prospect-Funnel-Optimization-Dashboard/
 │
+├── data/
+│ ├── prospect_funnel_raw.csv
+│ └── prospect_funnel_clean.csv
+│
+├── notebooks/
+│ └── funnel_analysis.ipynb
+│
+├── PowerBI/
+│ └── (Power BI .pbix file if shared)
+│
 ├── visuals/
-│ └── Screenshot_Prospect_Funnel_Overview.png
-├── README.md
-└── (Optional: Power BI file if shared publicly)
+│ ├── Screenshot_Prospect_Funnel_Overview.png
+│ ├── step1_load_raw_data_preview.png
+│ ├── step2_convert_dates_to_datetime.png
+│ ├── step3_create_stage_flags.png
+│ ├── step4_calculate_stage_durations.png
+│ └── step5_export_clean_data.png
+│
+└── README.md
 
 
 ---
 
 ## 💼 Author
 
-**Oscar Holguin**  
+**Oscar Holguin Silva**  
 Former Soldier → Data Analyst | Power BI • SQL • Python  
 🔗 [LinkedIn](https://www.linkedin.com/in/yashuasspear-oscar-holguin-silva/)  
 🏷️ #SoldiersInTech
 
 ---
+
+## 🧠 Next Steps
+
+- Add predictive scoring or segmentation
+- Integrate outreach team metrics for performance tracking
+- Deploy in a Streamlit app for self-serve interaction
 
