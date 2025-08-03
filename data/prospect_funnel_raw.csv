@@ -1,0 +1,6 @@
+prospect_id,region,channel,lead_date,contacted_date,engaged_date,application_date,enrolled_date
+P0001,West,Webinar,2024-04-27,,,, 
+P0002,Northeast,Webinar,2024-03-11,2024-03-13,2024-03-16,2024-03-20, 
+P0003,Southeast,Email,2024-05-14,2024-05-18,2024-05-19,2024-05-20, 
+P0004,West,Referral,2024-02-19,2024-02-21,2024-02-25,2024-02-28,2024-03-05
+P0005,West,Social Media,2024-06-07,2024-06-12,2024-06-13,2024-06-19,2024-06-22

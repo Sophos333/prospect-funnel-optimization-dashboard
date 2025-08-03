@@ -1,0 +1,6 @@
+prospect_id,region,channel,lead_date,contacted_date,engaged_date,application_date,enrolled_date,stage_contacted,stage_engaged,stage_applied,stage_enrolled,days_to_contact,days_to_engage,days_to_apply,days_to_enroll
+P0001,West,Webinar,2024-04-27,,,,,False,False,False,False,,,,
+P0002,Northeast,Webinar,2024-03-11,2024-03-13,2024-03-16,2024-03-20,,True,True,True,False,2.0,3.0,4.0,
+P0003,Southeast,Email,2024-05-14,2024-05-18,2024-05-19,2024-05-20,,True,True,True,False,4.0,1.0,1.0,
+P0004,West,Referral,2024-02-19,2024-02-21,2024-02-25,2024-02-28,2024-03-05,True,True,True,True,2.0,4.0,3.0,6.0
+P0005,West,Social Media,2024-06-07,2024-06-12,2024-06-13,2024-06-19,2024-06-22,True,True,True,True,5.0,1.0,6.0,3.0
